@@ -14,8 +14,8 @@ void setup() {
 
 void loop() {
   if (digitalRead(BUTTON_PIN) == HIGH) {
-    // Initially wait for 10 seconds
-    for (int i = 0; i < 10; ++i) {
+    // Initially wait for 30 seconds
+    for (int i = 0; i < 30; ++i) {
       if (digitalRead(BUTTON_PIN) == LOW) break;
       delay(1000);
     }
